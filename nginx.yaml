@@ -9,7 +9,7 @@ metadata:
     fluxcd.io/ignore: "false"
     fluxcd.io/tag.nginx: glob:*
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: nginx
