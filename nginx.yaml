@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: linuxarpan/dockerlabstest
+        image: linuxarpan/dockerlabstest:v1
         imagePullPolicy: Always
     
 
