@@ -18,8 +18,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
-        imagePullPolicy: IfNotPresent
+        image: linuxarpan/dockerlabstest
+        imagePullPolicy: Always
     
 
     
