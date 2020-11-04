@@ -4,12 +4,17 @@ metadata:
   name: nginx
   labels:
     app: nginx
+  annotations:
+    fluxcd.io/ignore: "false"
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: nginx
   template:
+    metadata:
+      labels:
+        app: nginx
     spec:
       containers:
       - name: nginx
