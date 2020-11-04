@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,9 +20,9 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: linuxarpan/dockerlabstest:v1
+        image: linuxarpan/dockerlabstest:v9
         imagePullPolicy: Always
-    
 
-    
-      
+
+
+
